@@ -1,0 +1,32 @@
+.card {
+    border: none;
+    background-color: transparent;
+    background-image: url('/Card.jpeg');
+    width: 200px;
+    height: 340px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 1em;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.card img {
+    width: 135px;
+    display: block;
+    margin: auto;
+}
+
+.card p {
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+
+.card .name {
+    font-size: 1.2em;
+}
+
+.card .desc {
+    font-size: 1em;
+}
