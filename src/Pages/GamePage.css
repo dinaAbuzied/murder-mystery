@@ -7,4 +7,24 @@
 
 .game-page {
     padding: 2em;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.game-page h2 {
+    color: white;
+    text-shadow: 1px 1px #003d5c;
+  }
+
+.game-page p.wrong-answer {
+    color: white;
+    text-shadow: 1px 1px #003d5c;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+.game-page .correct-answer p {
+    color: white;
+    text-shadow: 1px 1px #003d5c;
+    font-size: 1.2em;
 }

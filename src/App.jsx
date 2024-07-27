@@ -5,13 +5,14 @@ import GamePage from './Pages/GamePage';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('start-page');
+  const [playerName, setPlayerName] = useState('');
 
   const getCurrentPage = (page) => {
     switch (page) {
       case 'start-page':
-        return <StartPage setCurrentPage={setCurrentPage}/>
+        return <StartPage setCurrentPage={setCurrentPage} setPlayerName={setPlayerName} playerName={playerName}/>
       case 'game-page':
-        return <GamePage />
+        return <GamePage setCurrentPage={setCurrentPage} playerName={playerName} />
       default:
         return <p> empty page </p>
     }
